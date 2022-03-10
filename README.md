@@ -1,3 +1,5 @@
+![HEI_1280_800dpi](https://user-images.githubusercontent.com/59830049/157675214-6f7cbc65-0686-47a2-b6f8-5d55d853d24d.gif)
+
 # Repository Info
 This repository contains the sample code for the ESP32 DevkitC 32D and HTPAd Application Shield (written in the Arduino IDE).
   
@@ -21,7 +23,6 @@ Benefits:
 - shows EEPROM/Flash content in hexadecimal or associated data type ( short, long, ...)
 - prints results after each calculation step
 - understand the way from raw pixel voltages to the final compensated thermal image
-![grafik](https://user-images.githubusercontent.com/59830049/157674493-4ca718fc-916f-4eb1-ae69-52122caa6bce.png)
 
 WIFI mode
 -------------------------------------------
