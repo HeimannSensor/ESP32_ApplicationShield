@@ -1,7 +1,7 @@
 #ifndef _def_H
 #define _def_H
 
-// SETTING2
+// SETTING
 #define PTAT_BUFFER_SIZE 10
 #define VDD_BUFFER_SIZE 10
 #define ELOFFSETS_BUFFER_SIZE 10
