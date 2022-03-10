@@ -17,16 +17,16 @@ Serial mode
 -------------------------------------------
 This mode prints all results in the serial monitor of the Arduino IDE. Here the EEPROM/Flash content and sensor voltages can be visualized. It’s easy to interact with the sensor by sending the characters depending on the menu function you want.
 Benefits:
-• shows EEPROM/Flash content in hexadecimal or associated data type ( short, long, ...)
-• prints results after each calculation steps
-• understand the way from raw pixel voltages to the final compensated thermal image
+- shows EEPROM/Flash content in hexadecimal or associated data type ( short, long, ...)
+- prints results after each calculation steps
+- understand the way from raw pixel voltages to the final compensated thermal image
 
 WIFI mode
 -------------------------------------------
 Via WIFI you can connect your thermopile with the Heimann Sensor GUI to stream continuously. With the GUI streaming the sensor images in temperature or voltage mode is possible. Also, you can change user settings, like clock, ADC resolution and emissivity factor.
 Benefits:
-• false color visualization of images
-• stream continuously
-• switch between temperature and voltage mode
-• record/replay
-• change user settings
+- false color visualization of images
+- stream continuously
+-  switch between temperature and voltage mode
+-  record/replay
+-  change user settings
