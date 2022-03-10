@@ -1,4 +1,4 @@
-![HEI_1280_800dpi](https://user-images.githubusercontent.com/59830049/157675214-6f7cbc65-0686-47a2-b6f8-5d55d853d24d.gif)
+![Logo-farbe-klein-ppt-farbe](https://user-images.githubusercontent.com/59830049/157676024-adb2230d-1a19-42d3-8bc2-cc392b60e4d7.svg)
 
 # Repository Info
 This repository contains the sample code for the ESP32 DevkitC 32D and HTPAd Application Shield (written in the Arduino IDE).
