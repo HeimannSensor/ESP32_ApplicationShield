@@ -134,6 +134,16 @@
 #define E_PIJ 0x5800 // first register of pixel constants (PixC)
 #define EEPROM_SIZE 0x8000 // total number of EEPROM bytes
 
+const unsigned char LUTshape[8][8] = {
+  {0,0,0,0,0,0,0,0},
+  {1,1,1,1,0,0,0,1},
+  {0,1,0,0,0,0,0,1},
+  {0,1,0,1,0,1,0,1},
+  {0,1,0,1,0,1,0,1},
+  {0,1,0,1,1,1,0,1},
+  {0,1,0,0,0,0,0,1},
+  {0,1,0,1,1,1,1,1},
+};
 
 const unsigned int TempTable [NROFADELEMENTS][NROFTAELEMENTS]={
 {	0x0000,	0x0000,	0x0000,	0x0000,	0x0000,	0x0000,	0x0000,	0x0000,	1164,	1624,	1900,	2111,	2287,	2441,	2581,	2710,	2829	},
