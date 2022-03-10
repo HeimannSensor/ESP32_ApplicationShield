@@ -12,7 +12,7 @@ This Application Shield can be used with an ESP32 development board. It is desig
 - via WIFI you can stream thermal images in our GUI
 - via the serial monitor you can observe the sensor data as text output
 
-Both modes contain in the same code and you can activate one or both by activate the matching define
+Both modes contain in the same code and you can activate one or both by activating the matching define
 
 Serial mode
 -------------------------------------------
