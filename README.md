@@ -11,7 +11,8 @@ Info to the PCB "ESP32 Application Shield"
 This Application Shield can be used with an ESP32 development board. It is designed to facilitate the access to our thermopile arrays for the fast way to get the thermal image from the sensor. The full code is provided and completely open source. It includes all required steps from reading the EEPROM to the calculation of the thermal image. The C++ code can be viewed and modified via the Arduino IDE. The PCB is designed as an ESP 32 DevkitC 32 D extension. The source code includes two ways to interact with the sensor:
 - via WIFI you can stream thermal images in our GUI
 - via the serial monitor you can observe the sensor data as text output
-Both modes are contain in the same code and you can activate one or both by activate the matching define
+
+Both modes contain in the same code and you can activate one or both by activate the matching define
 
 Serial mode
 -------------------------------------------
