@@ -19,8 +19,9 @@ Serial mode
 This mode prints all results in the serial monitor of the Arduino IDE. Here the EEPROM/Flash content and sensor voltages can be visualized. It’s easy to interact with the sensor by sending the characters depending on the menu function you want.
 Benefits:
 - shows EEPROM/Flash content in hexadecimal or associated data type ( short, long, ...)
-- prints results after each calculation steps
+- prints results after each calculation step
 - understand the way from raw pixel voltages to the final compensated thermal image
+![grafik](https://user-images.githubusercontent.com/59830049/157674493-4ca718fc-916f-4eb1-ae69-52122caa6bce.png)
 
 WIFI mode
 -------------------------------------------
