@@ -1,3 +1,5 @@
+Hint: You will find the installation and handling guide in the ApplicationShieldESP32_user_manual.pdf
+
 ![Logo-farbe-klein-ppt-farbe](https://user-images.githubusercontent.com/59830049/157676024-adb2230d-1a19-42d3-8bc2-cc392b60e4d7.svg)
 
 # Repository Info
