@@ -20,8 +20,8 @@
 /*** NETWORK INFORMATION ********************************************************************************
   If you want to use the WIFI function, you have to change ssid and pass.
 *********************************************************************************************************/
-char ssid[] = "Desaster";
-char pass[] = "HSDD2002";
+char ssid[] = "YourNetworkName";
+char pass[] = "YourNetworkPassword";
 
 #include "Wire.h"
 #include "def.h"
