@@ -23,7 +23,7 @@
 #define TAEQUIDISTANCE 64   // distance between two columns
 #define ADEQUIDISTANCE 64    // distance between two rows
 #define ADEXPBITS 6
-#define TABLEOFFSET 5012 // table offset in digits
+#define TABLEOFFSET 1024 // table offset in digits
 
 
 // SENSOR INFO
