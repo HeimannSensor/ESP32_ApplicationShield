@@ -8,6 +8,8 @@
 // I2C CLOCK
 #define CLOCK_SENSOR            1000000
 #define CLOCK_EEPROM            400000
+#define ACCESSPOINTNAME "HTPAd16x16L2k1"
+#define ACCESSPOINTKEY "heimannsensor"
 
 // SETTING
 #define PTAT_BUFFER_SIZE 10
