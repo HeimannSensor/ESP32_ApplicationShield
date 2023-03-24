@@ -133,7 +133,7 @@
 #define E_ID4 0x0077
 #define E_NROFDEFPIX 0x007F // number of defekt pixel, stored as unsigned char
 #define E_DEADPIXADR 0x0080 // first register of dead adress
-#define E_DEADPIXMASK 0x0090 // first register of dead pixel mask
+#define E_DEADPIXMASK 0x00B0 // first register of dead pixel mask
 #define E_VDDCOMPGRAD 0x4040 // first register of VDD comp gradient
 #define E_VDDCOMPOFF 0x4400 // first register ofVDD comp offset
 #define E_THGRAD 0x47C0 // first register of thermal gradient
