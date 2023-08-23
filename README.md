@@ -1,4 +1,4 @@
-Hint: You will find the installation and handling guide in the user manual: [ApplicationShieldESP23_user_manual.pdf](https://github.com/HeimannSensor/ESP32_ApplicationShield/files/8231114/ApplicationShieldESP23_user_manual.pdf)
+Hint: You will find the installation and handling guide in the user manual: [ApplicationShieldESP23_user_manual.pdf](https://github.com/HeimannSensor/ESP32_ApplicationShield/blob/main/ApplicationShieldESP23_user_manual.pdf)
 
 ![Logo-farbe-klein-ppt-farbe](https://user-images.githubusercontent.com/59830049/157676024-adb2230d-1a19-42d3-8bc2-cc392b60e4d7.svg)
 
