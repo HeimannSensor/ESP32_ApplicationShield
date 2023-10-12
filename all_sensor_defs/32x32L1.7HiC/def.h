@@ -31,7 +31,7 @@
 #define NROFTAELEMENTS 12    // number of columns (ambient temperature steps)
 #define NROFADELEMENTS 1588  // number of rows (digit steps)
 #define TAEQUIDISTANCE 100   // distance between two columns
-#define ADEQUIDISTANCE 100    // distance between two rows
+#define ADEQUIDISTANCE 64    // distance between two rows
 #define ADEXPBITS 6
 #define TABLEOFFSET 4096 // table offset in digits
 
