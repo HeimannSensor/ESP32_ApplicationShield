@@ -1223,7 +1223,7 @@ void write_calibration_settings_to_sensor() {
    Description:     read eeprom register as 8
    Dependencies:    register address (address)
  *******************************************************************/
-byte write_EEPROM_byte(unsigned short address, unsigned char content ) {
+void write_EEPROM_byte(unsigned short address, unsigned char content ) {
 
   Wire.beginTransmission(EEPROM_ADDRESS);
   Wire.write((int)(address >> 8));   // MSB
@@ -1241,7 +1241,7 @@ byte write_EEPROM_byte(unsigned short address, unsigned char content ) {
    Dependencies:    register address (addr),
                     number of bytes (n)
  *******************************************************************/
-byte write_sensor_byte(uint8_t deviceaddress, uint8_t registeraddress, uint8_t input) {
+void write_sensor_byte(uint8_t deviceaddress, uint8_t registeraddress, uint8_t input) {
 
   Wire.beginTransmission(deviceaddress);
   Wire.write(registeraddress);

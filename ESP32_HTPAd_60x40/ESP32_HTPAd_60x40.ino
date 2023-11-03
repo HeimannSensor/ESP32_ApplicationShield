@@ -1367,7 +1367,7 @@ void write_calibration_settings_to_sensor() {
    Dependencies:    register address (addr),
                     number of bytes (n)
  *******************************************************************/
-byte write_sensor_byte( unsigned char addr, unsigned char input) {
+void write_sensor_byte( unsigned char addr, unsigned char input) {
 
   digitalWrite(SPI_CS, HIGH);  // set HIGH to communicate with Sensor
   SPI.transfer(addr);  // register address eeprom
