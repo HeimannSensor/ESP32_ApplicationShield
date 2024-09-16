@@ -947,7 +947,7 @@ word write_eeprom_routine(uint16_t addr, uint16_t value) {
    Dependencies:    register address (addr),
                     number of bytes (n)
  *******************************************************************/
-byte write_sensor_byte(uint8_t deviceaddress, uint8_t registeraddress, uint8_t input) {
+void write_sensor_byte(uint8_t deviceaddress, uint8_t registeraddress, uint8_t input) {
 
   Wire.beginTransmission(deviceaddress);
   Wire.write(registeraddress);
