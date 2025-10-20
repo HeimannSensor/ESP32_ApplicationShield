@@ -100,7 +100,7 @@ unsigned long id, ptatoff;
 float ptatgr_float, ptatoff_float, pixcmin, pixcmax, bw;
 uint16_t pij[PIXEL_PER_COLUMN][PIXEL_PER_ROW];
 uint32_t pixcij_uint32[PIXEL_PER_COLUMN][PIXEL_PER_ROW];
-
+signed char globaloff;
 
 //-----------------------------------------
 // SENSOR DATA
@@ -2581,3 +2581,4 @@ void print_menu() {
   Serial.println("\t\t\t\t\tver2.0 (dp)");
   Serial.println("***************************************************\n\n\n");
 }
+
