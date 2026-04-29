@@ -20,7 +20,7 @@
 #define PCSCALEVAL 100000000 // scale value for PixC (see formula in datasheet)
 #define NROFTAELEMENTS 11    // number of columns (ambient temperature steps)
 #define NROFADELEMENTS 1595  // number of rows (digit steps)
-#define TAEQUIDISTANCE 64   // distance between two columns
+#define TAEQUIDISTANCE 100   // distance between two columns
 #define ADEQUIDISTANCE 64    // distance between two rows
 #define ADEXPBITS 6
 #define TABLEOFFSET 1024// table offset in digits
