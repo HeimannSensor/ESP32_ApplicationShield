@@ -271,7 +271,17 @@ void IRAM_ATTR ISR(void)
    Description:
  *******************************************************************/
 void setup() {
-
+  
+  //*******************************************************************
+  // set LED pins as output
+  //*******************************************************************
+  pinMode(pinLEDred, OUTPUT);
+  pinMode(pinLEDgreen, OUTPUT);
+  pinMode(pinLEDblue, OUTPUT);
+  digitalWrite(pinLEDred, HIGH);
+  digitalWrite(pinLEDgreen, HIGH);
+  digitalWrite(pinLEDblue, HIGH);
+  
   Serial.begin(115200);
   while (!Serial);
 
@@ -427,18 +437,6 @@ void setup() {
   Serial.print(heap_caps_get_largest_free_block(MALLOC_CAP_8BIT));
   Serial.print("\t");
   Serial.print(heap_caps_get_largest_free_block(MALLOC_CAP_32BIT));
-
-  //*******************************************************************
-  // set LED pins as output
-  //*******************************************************************
-  pinMode(pinLEDred, OUTPUT);
-  pinMode(pinLEDgreen, OUTPUT);
-  pinMode(pinLEDblue, OUTPUT);
-  digitalWrite(pinLEDred, HIGH);
-  digitalWrite(pinLEDgreen, HIGH);
-  digitalWrite(pinLEDblue, HIGH);
-
-
 
 
   //*******************************************************************
