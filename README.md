@@ -1,6 +1,7 @@
 Hint: You will find the installation and handling guide in the user manual: [ApplicationShieldESP23_user_manual.pdf](https://github.com/HeimannSensor/ESP32_ApplicationShield/blob/main/ApplicationShieldESP23_user_manual.pdf)
 
-![Logo-farbe-klein-ppt-farbe](https://user-images.githubusercontent.com/59830049/157676024-adb2230d-1a19-42d3-8bc2-cc392b60e4d7.svg)
+<img width="16063" height="5197" alt="Heimann Sensor Logo_png_highestres_transparent" src="https://github.com/user-attachments/assets/763e16d8-ada4-4fd3-845f-2d6cdd9b9e88" />
+
 
 # Repository Info
 This repository contains the sample code for the ESP32 DevkitC 32E and HTPAd Application Shield (written in the Arduino IDE).
