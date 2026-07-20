@@ -1219,7 +1219,7 @@ void write_calibration_settings_to_sensor() {
    Description:     read eeprom register as 8
    Dependencies:    register address (address)
  *******************************************************************/
-byte write_EEPROM_byte(unsigned short address, unsigned char content ) {
+void write_EEPROM_byte(unsigned short address, unsigned char content ) {
   digitalWrite(SPI_CS, HIGH); // set HIGH, back to sensor
   delay(1);
 
@@ -1253,7 +1253,7 @@ byte write_EEPROM_byte(unsigned short address, unsigned char content ) {
    Dependencies:    register address (addr),
                     number of bytes (n)
  *******************************************************************/
-byte write_sensor_byte( unsigned char addr, unsigned char input) {
+void write_sensor_byte( unsigned char addr, unsigned char input) {
 
   digitalWrite(SPI_CS, HIGH);  // set HIGH to communicate with Sensor
   SPI.transfer(addr);  // register address eeprom
