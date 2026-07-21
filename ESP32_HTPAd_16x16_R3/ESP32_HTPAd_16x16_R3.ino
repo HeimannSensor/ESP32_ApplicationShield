@@ -1300,15 +1300,15 @@ void sort_data() {
   }
 
   /******************************************************************************************************************
-    new ATC values (store them in VDD buffer and calculate the average for pixel compensation
+    new ATC values
   ******************************************************************************************************************/
   sum = 0;
   sum2 = 0;
   for (int i = 0; i < DevConst.NumberOfBlocks; i++) {
     // block top half
-    sum += (unsigned short)((RAMoutput[i][DevConst.VDDPos] << 8 | RAMoutput[i][DevConst.VDDPos + 1]));
+    sum += (unsigned short)((RAMoutput[i][DevConst.ATC_POS] << 8 | RAMoutput[i][DevConst.ATC_POS + 1]));
     // block bottom half
-    sum2 += (unsigned short)((RAMoutput[2 * DevConst.NumberOfBlocks - i][DevConst.VDDPos] << 8 | RAMoutput[2 * DevConst.NumberOfBlocks - i][DevConst.VDDPos + 1]));
+    sum2 += (unsigned short)((RAMoutput[2 * DevConst.NumberOfBlocks - i + 1][DevConst.ATC_POS] << 8 | RAMoutput[2 * DevConst.NumberOfBlocks - i + 1][DevConst.ATC_POS + 1]));
   }
   ATC0 = (unsigned short)((float)sum / (float)(DevConst.NumberOfBlocks));
   ATC1 = (unsigned short)((float)sum2 / (float)(DevConst.NumberOfBlocks));
