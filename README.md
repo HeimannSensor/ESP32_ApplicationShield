@@ -1,4 +1,5 @@
-Hint: You will find the installation and handling guide in the user manual: [ApplicationShieldESP23_user_manual.pdf](https://github.com/HeimannSensor/ESP32_ApplicationShield/blob/main/ApplicationShieldESP23_user_manual.pdf)
+Hint: You will find the installation and handling guide in the user manual: [ApplicationShieldESP23_UserManual_Rev2.pdf](https://github.com/user-attachments/files/30532100/ApplicationShieldESP23_UserManual_Rev2.pdf)
+
 
 <img width="16063" height="5197" alt="Heimann Sensor Logo_png_highestres_transparent" src="https://github.com/user-attachments/assets/763e16d8-ada4-4fd3-845f-2d6cdd9b9e88" />
 
